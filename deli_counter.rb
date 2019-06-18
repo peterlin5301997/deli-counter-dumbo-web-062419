@@ -10,6 +10,7 @@ def line(array)
       count += 1
     end
     puts "The line is currently:" + line
+  end
 end
 
 def take_a_number(array, string)
