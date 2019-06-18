@@ -12,7 +12,7 @@ def line(array)
     for i in line do
       stringLine += i.to_s
     end
-    puts "The line is currently: #{line}"
+    puts "The line is currently: #{stringLine}"
   end
 end
 
