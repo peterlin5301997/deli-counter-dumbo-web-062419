@@ -9,6 +9,9 @@ def line(array)
       line.push(" #{position}. #{i}")
       position += 1
     end
+    for i in line do
+      stringLine += i.to_s
+    end
     puts "The line is currently: #{line}"
   end
 end
