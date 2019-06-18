@@ -9,7 +9,7 @@ def line(array)
       line.push(" #{position}. #{i}")
       position += 1
     end
-    return "The line is currently: #{line}"
+    puts "The line is currently: #{line}"
   end
 end
 
