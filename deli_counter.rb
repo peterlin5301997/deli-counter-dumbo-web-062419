@@ -7,7 +7,7 @@ def line(array)
   else
     for i in array do
       line.push(" #{position}. #{i}")
-      count += 1
+      position += 1
     end
     puts "The line is currently: #{line}"
   end
